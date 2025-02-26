@@ -46,9 +46,6 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/droidian') == true
         run: echo "DROIDIAN_VERSION=$(echo ${{ github.ref }} | rev | cut -d'/' -f1 | rev)" >> $GITHUB_ENV
         
-      - name: Kali key
-        run: sudo wget https://archive.kali.org/archive-key.asc -O /etc/apt/trusted.gpg.d/kali-archive-keyring.asc
-
       - name: Set identifier
         run: echo "DROIDIAN_IDENTIFIER=${{ matrix.config.product }}-${{ matrix.config.arch }}-${{ matrix.config.edition }}-${{ matrix.config.variant }}-${{ matrix.config.apilevel }}" >> $GITHUB_ENV
 
