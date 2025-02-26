@@ -1,6 +1,6 @@
 {{- $architecture := or .architecture "arm64" -}}
 {{- $apilevel := or .apilevel "28" -}}
-{{- $suite := "kali-rolling" -}}
+{{- $suite := "trixel" -}}
 {{- $use_internal_repository := or .use_internal_repository "no" -}}
 
 {{- $username := or .username "droidian" -}}
