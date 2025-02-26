@@ -22,7 +22,7 @@ xiaomi_angelica:
   arch: armhf
   edition: phosh
   variant: phone
-  suite: ubuntu
+  suite: trixel
   apilevel: 29
 
   packages: *xiaomi_angelica_packages
