@@ -8,7 +8,7 @@ actions:
     suite: {{ $suite }}
     components:
       - main
-    mirror: http://kali.download/kali
+    mirror: http://deb.debian.org/debian
     variant: minbase
     keyring: /etc/apt/trusted.gpg.d/kali-archive-keyring.asc
 
