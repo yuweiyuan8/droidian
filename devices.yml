@@ -22,7 +22,7 @@ xiaomi_angelica:
   arch: armhf
   edition: phosh
   variant: phone
-  suite: kali-rolling
+  suite: ubuntu
   apilevel: 29
 
   packages: *xiaomi_angelica_packages
